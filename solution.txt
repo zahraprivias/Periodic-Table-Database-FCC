@@ -1,0 +1,23 @@
+1. Connect
+psql --username=freecodecamp --dbname=periodic_table
+
+2. Create git repository
+mkdir periodic_table
+cd periodic_table
+git init
+git checkout -b main
+touch README.md
+git add README.md
+git commit -m "Initial commit"
+
+3. Create element.sh
+touch element.sh
+chmod +x element.sh
+git add element.sh
+git commit -m "refactor: create & give executable permission for element.sh"
+
+4. Create fix_database.sh
+touch fix_database.sh
+chmod +x fix_database.sh
+git add fix_database.sh
+git commit -m "fix: periodic table database"
